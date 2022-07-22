@@ -1,6 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies (removed / in front of node modules and added config.js)
+# dependencies (removed / in front of node modules, added config.js below node modules)
 node_modules
 config.js
 /.pnp
