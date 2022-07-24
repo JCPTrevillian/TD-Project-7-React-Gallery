@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+//chose 3 subjects to meet project requirement 
+
 const Nav = () => {
   return (
     <nav className="main-nav">

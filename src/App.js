@@ -8,7 +8,7 @@ import PageNotFound from "./PageNotFound";
 import apiKey from "../config";
 
 class App extends Component {
-
+//opens on beaches 1 of 3 default topics 
   state = { isLoading: false, search: '' };
   defaultSearch = 'beaches';
 
@@ -17,7 +17,7 @@ class App extends Component {
     const url_params =
       `method=flickr.photos.search&api_key=${apiKey}&tags=${search}&per_page=24&format=json&nojsoncallback=1`;
     const searchUrl = `${base_path}?${url_params}`;
-
+//set state, fetch
     this.setState( { isLoading: true } );
     fetch(searchUrl)
       .then(response => response.json())
@@ -33,7 +33,7 @@ class App extends Component {
         src: src}
       })
   }
-
+//routing: switch, route tags
   render() {
     return (
       <BrowserRouter>
