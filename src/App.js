@@ -8,4 +8,8 @@ import PageNotFound from "./PageNotFound";
 import apiKey from "../config";
 
 class App extends Component {
-};
+
+  state = { isLoading: false, search: '' };
+  defaultSearch = 'beaches';
+
+}
