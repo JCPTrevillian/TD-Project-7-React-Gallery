@@ -12,7 +12,7 @@ class GalleryContainer extends Component {
     const urlTopic = this.props.match.params.topic;
 
     let body;
-    // search 
+    //search
     if ( urlTopic !== search ) {
       if (isLoading) {
         body = <Loading />
