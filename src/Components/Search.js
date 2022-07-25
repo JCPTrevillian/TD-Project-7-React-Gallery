@@ -13,9 +13,10 @@ class Search extends Component {
   render() {
     return (
       <div>
-        <form className="search-form" onSubmit={this.handleSubmit}>
+        <form className="search-form" onSubmit={this.handleSubmit}></form>
           <input type="search" name="search" placeholder="Search" ref={(node) => {this.search = node}} required/>
           <button type="submit" className="search-button"></button>
-    
-
+     </div>
+   ) }
+}
   export default withRouter(Search);
