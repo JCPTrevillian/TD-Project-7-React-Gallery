@@ -12,14 +12,14 @@ class GalleryContainer extends Component {
     const urlTopic = this.props.match.params.topic;
 
     let body;
-    // If url is different than last search, either display Loading message or initiate a new search
+    // search 
     if ( urlTopic !== search ) {
       if (isLoading) {
         body = <Loading />
       } else {
-        this.props.fetchData(urlTopic)  // method sets isLoading=true
+        this.props.fetchData(urlTopic)  
       }
-    // If search is finished display results
+    //search results
     } else {
       if ( items.length === 0 ) {
         body = <NoResults search={search} />
