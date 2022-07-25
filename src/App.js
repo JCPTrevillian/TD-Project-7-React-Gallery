@@ -12,7 +12,7 @@ class App extends Component {
   state = { isLoading: false, search: '' };
   defaultSearch = 'beaches';
 
-  etchData = (search) => {
+  fetchData = (search) => {
     const base_path = "https://api.flickr.com/services/rest/";
     const url_params =
       `method=flickr.photos.search&api_key=${apiKey}&tags=${search}&per_page=24&format=json&nojsoncallback=1`;
