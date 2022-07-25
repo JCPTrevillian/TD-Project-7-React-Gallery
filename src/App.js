@@ -4,7 +4,7 @@ import './App.css';
 
 import Header from "./Header";
 import GalleryContainer from "./GalleryContainer.js";
-import PageNotFound from "./PageNotFound";
+import PageNotFound from "./PageNotFound.js";
 import apiKey from "../config";
 
 class App extends Component {
