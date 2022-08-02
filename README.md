@@ -1,6 +1,4 @@
-React is one of the most popular development libraries on the web, which is why React developers are in such great demand. 
-
-In this project I will demonstrate my experience by using React and the Create-React-App tool to build a fast and lightweight gallery app with a modern approach.
+In this project I will demonstrate my experience by using React and the Create-React-App tool to build a fast and lightweight gallery app with a modern approach. React is one of the most popular development libraries on the web, which is why React developers are in such great demand. 
 
 
 
